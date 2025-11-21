@@ -25,3 +25,4 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import "./commands/calculadora";
 import "./commands/restaurar-senha";
+import "./commands/atualizar-perfil";

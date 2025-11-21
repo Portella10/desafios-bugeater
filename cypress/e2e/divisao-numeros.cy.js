@@ -22,6 +22,7 @@ describe("Desafio divisao de numeros", () => {
 
         //Leave both input fields blank and then click on the "Calculate" button. Expected Result: "User input error".
         cy.calculadora(" ", " ", " ");
+        cy.contains("button", "Calculate!").click();
         cy.wait(1000);
 
         //Input "10" into the first input field and "0" into the second input field, then click on the "Calculate" button. Expected Result: "Application Error".
