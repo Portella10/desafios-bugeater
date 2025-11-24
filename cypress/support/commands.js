@@ -26,3 +26,4 @@
 import "./commands/calculadora";
 import "./commands/restaurar-senha";
 import "./commands/atualizar-perfil";
+import "./commands/create-profile";
